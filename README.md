@@ -18,13 +18,14 @@ This trap demonstrates dynamic data collection and conditional response logic on
 
 ## 📂 Folder Structure
 
+```text
 TrapDecisionPressure/
 ├── contracts/
-│ ├── TrapDecisionPressure.sol # Main trap contract
-│ └── DecisionResponseMock.sol # Mock response contract for testing
-├── drosera.toml # Drosera configuration file
-└── README.md # Project documentation (this file)
-
+│   ├── TrapDecisionPressure.sol     # Main trap contract
+│   └── DecisionResponseMock.sol     # Mock response contract for testing
+├── drosera.toml                     # Drosera configuration file
+└── README.md                        # Project documentation (this file)
+```
 ---
 
 ## 📦 Deployment Info
