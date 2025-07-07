@@ -1,0 +1,18 @@
+ethereum_rpc = "https://ethereum-hoodi-rpc.publicnode.com"
+drosera_rpc = "https://relay.hoodi.drosera.io"
+eth_chain_id = 560048
+drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
+
+[traps]
+
+[traps.decisionpressure]
+path = "out/TrapDecisionPressure.sol/TrapDecisionPressure.json"
+response_contract = "0xF597380C4215943794e35770f149b82e7906D4EC"
+response_function = "respondWithDecision(string)"
+cooldown_period_blocks = 33
+min_number_of_operators = 1
+max_number_of_operators = 2
+block_sample_size = 10
+private_trap = true
+whitelist = ["0xa1d6e6c611cefc31a1dcda304c8adc1f2f8a6a87"]
+address = "0x11162E4f88eE71336a7d9b10298893F892A69f2B"
