@@ -31,7 +31,7 @@ TrapDecisionPressure/
 ## 📦 Deployment Info
 
 - **Trap Contract Path**: `out/TrapDecisionPressure.sol/TrapDecisionPressure.json`  
-- **Response Contract Address**: `0x25E2CeF36020A736CF8a4D2cAdD2EBE3940F4608`  
+- **Response Contract Address**: `0xF597380C4215943794e35770f149b82e7906D4EC`  
 - **Response Function**: `respondWithDecision(string)`  
 - **Trap Address**: *(fill in once deployed)*
 
